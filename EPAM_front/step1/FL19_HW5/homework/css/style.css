@@ -1,0 +1,549 @@
+header{
+    font-family: system-ui, sans-serif;
+    background-color: rgb(251,249,250);
+    font-weight: 100;
+}
+
+header span{
+    color: rgb(226, 185, 121);
+    font-weight: 400;
+}
+
+header #top-site{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: -1%;
+    margin-top: -0.6%;
+}
+
+header li{
+    font-size: 1.5vw;
+    display: inline;
+    margin-right: 7%;
+}
+
+header nav{
+    width: 80% !important;
+    padding-left: 20%;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    float: right;
+    text-align: right;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header img{
+    width: 40%;
+    top:0
+}
+
+header #header-text p{
+    font-size: 2.5vw;
+    
+}
+
+header #header-text{
+    margin-top: 5%;
+}
+
+header #header-text button{
+    border: 2px solid #65aa44;
+    border-top: none;
+    border-bottom: none;
+    background: transparent;
+    font-size: 1vw;
+    padding: 1vw 5vw;
+    cursor: pointer;
+}
+
+main{
+    font-family: system-ui, sans-serif;
+}
+main #group-of-companies{
+    font-family: system-ui, sans-serif;
+    margin-top: 0;
+    
+}
+
+main #group-of-companies, #purchaise-price, #our-news{
+    padding: 2% 5% 3% 5%; 
+    background-color: rgb(251, 249, 250);
+}
+
+main h2{
+    font-weight: 400;
+    font-size: 2vw;
+    border:none;
+    border-left: 9px solid #65aa44 ;
+    border-bottom: 2px solid #65aa44 ;
+    padding-left: 1%;
+    padding-bottom: 0.3%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main #group-of-companies p{
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+main #group-of-companies #table-companies{
+    display: flex;
+    justify-content: space-between;
+}
+
+main #group-of-companies .paragraph{
+    width: 30.5%;
+}
+main #group-of-companies .paragraph h3{
+    color:#65aa44;
+    font-size: 1.7vw;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+main #offer p{
+    font-weight: 100;
+}
+
+main #offer, #offer-two{
+    /* padding-left: -1%; */
+    padding: 2% 5% 3% 5%; 
+    
+    font-size: 1vw;
+    /* padding-top: 2%;
+    padding-bottom: 3%; */
+}
+
+main #offer ul{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    display: inline-flex;
+    width: 90%;
+    margin-bottom: 3%;
+}
+
+main #offer ul li {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+main #offer ul li img {
+    margin-right: 2vw;
+} 
+
+main #purchaise-price p{
+    font-weight: 100;
+    
+    font-size: 1vw;
+}
+main #purchaise-price{
+    font-weight: 100;
+}
+
+main #purchaise-price th, main #purchaise-price td:first-child {
+    font-weight: 600;
+    
+}
+
+td, th{
+    text-align: center;
+    height:4vh;
+    
+    font-size: 1vw;
+}
+table {
+    /* table-layout: fixed ; */
+    width: 100% ;
+  }
+
+main #purchaise-price table,
+main #purchaise-price th,
+main #purchaise-price td{
+    border: 2px solid #e2ba7b;
+    border-collapse: collapse;
+}
+
+main #offer-two p, main #offer-two ul{
+    font-weight: 100;
+}
+main #offer-two li {
+    color: #e2ba7b
+}
+main #offer-two span {
+    color: #000000
+}
+
+main #our-news #all-news{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+main #our-news .news{
+    width: 32%;
+    box-shadow: 0px 0px 12px 0px #D3D3D3;
+}
+main #our-news .news h5{
+    font-size: 1vw;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+main #our-news p{
+    font-weight: 100;
+    
+    font-size: 1vw;
+}
+
+main #our-news i{
+    color:  #808080;
+}
+
+main .news img{
+    width: 25%;
+    height: 80%;
+    margin-left: 4%;
+}
+
+main .news p, main .news h5{
+    margin:0;
+    font-weight: 500;
+}
+main .news{
+    display:flex;
+    align-items: center;
+}
+
+main .news .description{
+    margin:3% 3% 3% 3%;
+}
+
+footer{
+    background: #f5f5f5;
+    font-family: system-ui, sans-serif;
+}
+
+footer ul{ 
+    list-style-type: none;
+    padding-left: 0;
+    padding-top:3%;
+}
+
+footer ul li{
+    
+    padding-bottom: 20%;
+}
+footer img{
+    width:25%
+}
+
+footer p{
+    font-weight: 100;
+}
+
+
+footer #contacts-adresses{
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left:2%;
+    margin-top:0;
+    margin-bottom: 2%;;
+}
+
+footer #contacts{
+    width:8%;
+    font-size: 1vw;
+}
+
+footer .description{
+    justify-content: space-between;
+}
+
+footer .adresses{
+    display: flex;
+    justify-content: space-between;
+    width:30%
+}
+
+footer #general-columns{
+    width:92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .headline{
+    width: 37%;
+    font-size: 1vw;
+}
+footer .content{
+    width: 62%;
+    font-size: 1vw;
+}
+footer .content p{
+    
+    margin-bottom: 0;
+}
+footer .content ul{
+    list-style-type: none;
+    font-weight: 100;
+    margin:0;
+
+    padding-top:0;
+}
+footer .content ul li{
+    padding:0;
+}
+
+@media screen and (min-width:769px) and (max-width:991px){   
+    header nav{
+        width: 80% !important;
+        padding-left: 23%;
+        cursor: pointer;
+        position: absolute;
+        top:0;
+        float: left;
+        text-align: left;
+    }
+
+    header ul{
+        list-style-type: none;
+    }    
+    header ul li{
+        max-width: 10%;
+        display: inline-flex;
+        text-align: center;
+        font-size: 2vw;
+        margin-right: 5vw;
+    }
+    header img{
+        width: 60%;
+        top:0
+    }
+    header #header-text p{
+        font-size: 3.3vw;
+        
+    }
+    header #header-text{
+        margin-top: 13.5%;
+        margin-left: -20%;
+    }
+    header #header-text button{
+        font-size: 1.5vw;
+    }
+    main #group-of-companies .paragraph h3{
+        font-size: 3vw;
+    }
+    main h2{
+        font-size: 3.8vw;
+    }
+    main #group-of-companies p, main #purchaise-price p, 
+    main #our-news p, main #offer p, main #offer-two p,
+    main #offer-two ul li{
+        font-size: 1.9vw;
+    }
+    main #purchaise-price table td, main #purchaise-price table th{
+        font-size: 2vw;
+        height:6vh;
+    }
+    main #offer li{
+        font-weight: bold;
+        font-size: 2.3vw;
+        padding-bottom: 1.6vh;
+    }
+    main #offer ul{
+        display: block;
+    }
+    main #offer .column2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    main #our-news #all-news{
+        display: block;
+    }
+    main #our-news .news{
+        width: 100%;
+    }
+    main #our-news .news h5{
+        font-size: 2vw;
+    }
+    main #our-news #all-news .news img{
+        margin:2vh 0vw 2vh 2vw;
+        object-fit: cover;
+        min-width: 20vw;
+        min-height: 25vh;
+    }
+    main #our-news #all-news .news{
+        margin-bottom: 4%;
+    }
+    main .news .description{
+        margin: 0% 3% 3% 3%
+    }
+    main .news .description .details{
+        margin-top: 4vh;
+    }
+    footer #contacts-adresses, footer #general-columns, footer .content ul{
+        display:block;
+    }
+    footer ul{
+        display:inline-flex;
+        align-items:flex-end;
+    }
+    footer ul li {
+        padding-bottom: 0;
+    }
+    footer .adresses{
+        display: flex;
+    }
+    footer #contacts-adresses h3, footer #contacts-adresses li, footer #contacts-adresses p{
+        font-size: 2vw;
+    }
+    footer .adresses {
+        width: 100%;
+    }
+    footer img{
+        width: 3vw;
+        margin-right: 1vw;
+    }
+    footer #contacts-adresses h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    footer #contacts h3 {
+        padding-top: 3vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header nav{
+        width: 100% !important;
+        text-align: center;
+        padding-left: 0;
+        display: flex;
+    }
+    header ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width:100%;
+        padding-left: 0;
+    }    
+    header ul li{
+        font-size: 3vw;
+        font-weight: 400;
+        height: 7vh;
+    }
+    header img{
+        width: 60%;
+        top:0;
+        margin-top: -1%;
+    }
+    header #header-text p{
+        font-size: 3.3vw;
+        
+    }
+    header #header-text{
+        margin-top: 24%;
+        margin-left: -58%;
+        text-align: center;
+    }
+    header #header-text button{
+        font-size: 3vw;
+    }
+    main h2{
+        font-size: 3.5vw;
+    }
+    main #group-of-companies p, 
+    main #our-news p, main #offer p, main #offer-two p,
+    main #offer-two ul li{
+        font-size: 2.5vw;
+    }
+    main #group-of-companies #table-companies{
+        display: block;
+    }
+    main #group-of-companies .paragraph h3{
+        font-size: 4vw;
+    }
+    main #group-of-companies .paragraph {
+        width: 100%;
+    }
+    main #offer ul {
+        display: block;
+        font-size: 2.5vw;
+    }
+    main #offer ul li img {
+        margin-right: 7vw;
+        width:10%
+    }
+    main #purchaise-price {
+        display: none;
+    }
+    main #our-news #all-news{
+        display: block;
+    }
+    main #our-news .news{
+        width: 100%;
+    }
+    main #our-news .news h5{
+        font-size: 2.3vw;
+    }
+    main #our-news #all-news .news img{
+        margin:1vh 0vw 1vh 1vw;
+        object-fit: cover;
+        min-width: 20vw;
+        min-height: 18vh;
+    }
+    main #our-news #all-news .news{
+        margin-bottom: 4%;
+    }
+    footer #contacts-adresses, footer #general-columns, footer .content ul{
+        display:block;
+    }
+    footer ul{
+        display:inline-flex;
+        align-items:flex-end;
+    }
+    footer .adresses{
+        display: flex;
+    }
+    footer #contacts-adresses h3, footer #contacts-adresses li, footer #contacts-adresses p{
+        font-size: 2.8vw;
+    }
+    footer .adresses {
+        width: 100%;
+    }
+    footer img{
+        width: 5vw;
+        margin-right: 1vw;
+    }
+    footer #contacts-adresses h3{
+        padding-top: 2vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    footer #contacts h3 {
+        padding-top: 3vh;
+    }
+    footer #general-columns{
+        margin-top: -7vw;
+    }
+    footer ul li {
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen  and (max-width:500px){
+    main #our-news #all-news .news img{
+        min-height: 12vh !important;
+    }
+    header ul li{
+        height: 5vh !important;
+    }
+}

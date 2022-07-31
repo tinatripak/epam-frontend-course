@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div id="squares">
+        <div id ="first">
+          <div class ="square blue-square">
+            <h1>Epam</h1>
+          </div>
+          <div class ="square text">
+            <p><i>"What We Do We help customers around the world become competitive - 
+              and stay competitive. We combine best-in-class software engineering 
+              with digital strategy and experience design, business consulting and technology innovation services."</i></p>
+          </div>
+        </div>
+        <div id="second">
+          <div class ="square text">
+            <div class="container">
+              <div class="text-container">
+                <h2>Learn-From-Home Services for Enterprises </h2>
+                <p>As the travel industry addresses some of the major challenges that emerged as 
+                  a result of the pandemic, airlines can turn to intelligent automation to improve 
+                  experiences and operations.
+                </p>
+              </div>
+              <div class="button-container">
+                <button type="button">Read more</button>
+              </div>
+          </div>
+          </div>
+          <div class ="square blue-square">
+            <figure>
+              <img src="img/image-04.jpg" alt="Epic Games" style="width:100%">
+              <figcaption>Epic Games Transforming the Gaming Industry.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div id="third">
+          <div class ="square blue-square">
+            <img src="img/image-01.jpg" alt="Payment" style="width:100%">
+          </div>
+          <div class ="square text">
+            <div class="container">
+              <div class="text-container">
+                <h2>Architecting Security into Your Modern Enterprise</h2>
+                <p>Its time to engineer a trusted future through strategically architected cybersecurity. 
+                  <a href="https://www.epam.com/">Epam</a> website. Thank you.
+                </p>
+              </div>
+              <div class="button-container">
+                <button type="button">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="first-block">
+        <div class="flex-item">
+          <div class = "description-container">
+            <div class="text-cont">
+              <div>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi 
+                  itaque libero nemo nisi officia, placeat quis repellat sequi similique. <br><br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi 
+                  itaque libero nemo nisi officia, placeat quis repellat sequi similique. <br><br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, at cum ducimus eveniet, excepturi 
+                  itaque libero nemo nisi officia, placeat quis repellat sequi similique. 
+                </p>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button type="button">Read more</button>
+            </div>
+          </div>
+          <img src="img/image-02.jpg" alt="Nature">
+      </div>
+      </div>
+      <div id="second-block">
+        <div id="cards">
+          <div id="img-card">
+            <img src="img/image-03.jpg" alt="Sport">
+          </div>
+          <div id="first-card">
+            <div class="header-part">
+              <h4>Standart Plan</h4>
+              <h6>($25 per month)</h6>
+            </div>
+            <div class="main-part">
+              <p>
+                Lorem ipsum dolor sit amet.<br><br>
+                Lorem ipsum <br><br>
+                Lorem ipsum dolor. <br><br>
+                Lorem ipsum dolor. <br><br>
+                Lorem ipsum dolor sit. <br><br>
+                Lorem dolor <br><br>
+              </p>
+            </div>
+            <div class="end-part">
+              <button type="button">Buy now</button>
+            </div>
+          </div>
+          <div id="second-card">
+            <div class="header-part">
+              <h4>Advanced Plan</h4>
+              <h6>($40 per month)</h6>
+            </div>
+            <div class="main-part">
+              <p>
+                Lorem ipsum dolor sit amet.<br><br>
+                Lorem ipsum <br><br>
+                Lorem ipsum dolor. <br><br>
+                Lorem ipsum dolor. <br><br>
+                Lorem ipsum dolor sit. <br><br>
+                Lorem dolor <br><br>
+              </p>
+            </div>
+            <div class="end-part">
+              <button type="button">Buy now</button>
+            </div>
+            <p id="red-star"><span>*</span>Special discount</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="form">
+        <h3>Application Form</h3>
+      </div>
+      <div id="white-back">
+        <div id="personal-data">
+          <form>
+            <div id="columns">
+              <div id="first-column">
+                <input type="text" id="fname" name="firstname" placeholder="Full Name">
+                <input type="text" id="lname" name="lastname" placeholder="Your Email">
+                <select id="pos" name="pos">
+                  <option value="position">Position</option>
+                </select>
+                <select id="sal" name="sal">
+                  <option value="salary">Salary</option>
+                </select>
+              </div>
+              <div id="second-column">
+                <textarea id="w3review" name="w3review" rows="10" cols="30" placeholder="Additional message"></textarea>
+              </div>
+            </div>
+            <div id="submit">
+              <button type="button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="list">
+        <div>
+          <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>1010 Vivamaus viverra</li>
+            <li>Leo vel portthor sodales</li>
+            <li>Non eleifend 10980</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Maecenas fermentum</li>
+            <li>Nam eu justo et urna</li>
+            <li>Semper maximus libero</li>
+            <li>Etiam magna quam</li>
+          </ul>
+        </div>
+      </div>
+      <p id="copy">Copyright © 2020 Your Company Name</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+#nicknameInput input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4vh;
+    margin-bottom: 3vh;
+    padding: 1vh 1vh 1vh 1vh;
+}
+#smallButtons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9vh;
+    
+}
+#smallButtons button{
+    background-color: #f7d57c;
+    border-radius: 4px 4px;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+    padding: 0.7vh 0.7vh 0.7vh 0.7vh;
+    font-size: 2vh;    
+    cursor: pointer;
+}
+#clickMeButton button{
+    border-radius: 50%;
+    background-color:#92b5f2;
+    cursor: pointer;
+    padding: 17vh 11vh 17vh 11vh;
+    font-size: 4vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

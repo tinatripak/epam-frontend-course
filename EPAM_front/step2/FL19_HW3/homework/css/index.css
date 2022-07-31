@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&Cinzel:wght@900&display=swap');
+body{
+    background-image: url('https://wallpaperaccess.com/full/827467.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    font-family: 'Cinzel', serif;
+}
+.hidden{
+    display: none;
+}
+header{
+    text-align: center;
+    color:rgb(255, 163, 4);
+    font-size: 7vw;
+    font-weight: 800;
+    padding-top: 10%;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(39, 51, 67);
+    font-family: 'Raleway', sans-serif;
+    padding: 1vw 4vw 1vw 4vw;
+    text-align: center;
+    font-size: 2.5vw;
+    border-radius: 5px;
+    margin-top:10%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(33, 43, 56);
+    color: rgb(255, 255, 255);
+}
+.characters-list, .battle-field{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    column-gap: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 13%;
+}
+.characters-list{
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.battle-field{
+    grid-template-columns: 20% 20%;
+    margin-top:  3%;
+}
+.characters-list .card, .battle-field .card{
+    background-color: #b5b4b4;
+    box-shadow: 0 0 10px rgba(165, 160, 160, 0.5);
+    border-radius: 20px;
+    display:flex; 
+    flex-direction:column;
+    direction: rtl;
+    height: 100%;
+    cursor: pointer;
+}
+.characters-list .card:hover{
+    transform: scale(1.1);
+}
+.characters-list img, .battle-field img{
+    width: 100%;
+    align-self: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 90%;
+}
+.characters-list h3, .battle-field h3{
+    text-align: center;
+}
+.card p, .battle-field p{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+}
+.card p{
+    display: none;
+}
+.battle-field p{
+    display: block;
+}
+.battle-field img{
+    display: none;
+}
+.battle-field .card{
+    align-items: center;
+    font-size: 150%
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
+#title h1{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size:300%;
+}
+#buttons{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 15% 15%;
+    column-gap: 5%;
+}
+#buttons button{
+    width: 15vw;
+    height: 6.5vh;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 110%;
+}
+button{
+    cursor: pointer;
+}
+#buttons button:first-of-type{
+    background-color: rgb(255, 205, 53);
+}
+#buttons button:first-of-type:hover{
+    background-color: black;
+    color: rgb(255, 205, 53);
+}
+#buttons button:last-of-type{
+    background-color: rgb(91, 135, 255);
+}
+#buttons button:last-of-type:hover{
+    background-color: black;
+    color: rgb(91, 135, 255);
+}
+#grid-container{
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 10%;
+	max-width: 70%;
+    min-height: 50vh;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+    font-family: 'Playfair Display', serif;
+}
+#grid-container .item:first-of-type{
+    border: 1px solid rgb(255, 205, 53);
+    padding: 15px;
+}
+#grid-container .item:last-of-type{
+    border: 1px solid rgb(91, 135, 255);
+    padding: 15px;
+}
+#grid-container .item div{
+    border-radius: 5px;
+    height: 3.5vh;
+    margin-bottom: 1.5vh;
+    text-align: center;
+}
+#grid-container .item:first-of-type div{
+    background-color: rgba(91, 135, 255, 0.6);
+}
+#grid-container .item:last-of-type div{
+    background-color: rgba(255, 205, 53, 0.6);
+}
+#grid-item-fetch p{
+    margin-top: 0;
+}
+#grid-container #grid-item-fetch div{
+    height: 10vh;
+}
+#grid-container #grid-item-fetch button{
+   width: 14vh;
+   height: 3.5vh;
+   border:none;
+   border:1px solid rgb(108, 147, 255);
+   border-radius: 8px;
+   background-color: rgb(116, 153, 255);
+   margin-left:4px;
+   margin-right: 4px;
+   font-family: 'Playfair Display', serif;
+}
+#grid-container #grid-item-fetch button:hover{
+    background-color: black;
+    color: rgb(91, 135, 255);
+}
+.first-row{
+    display: inline;
+    margin-bottom: 2vh;
+}
+.second-row{
+    display: none;
+    justify-content: center;
+}
+input{
+    height: 3.5vh;
+    font-family: 'Playfair Display', serif;
+    border:none;
+}

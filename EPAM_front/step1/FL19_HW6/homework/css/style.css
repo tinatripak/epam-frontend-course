@@ -1,0 +1,20 @@
+header .navbar-brand{
+    font-weight: 600;
+    color:#C62C45 !important;
+}
+header ul li a{
+    font-size: 1.3rem;
+}
+main .header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header-bg.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.jumbotron-heading{
+    font-size: 4.5rem !important;
+}
+.jumbotron p{
+    font-size: 1.4rem;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "basic-testing",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "start": "http-server -c-1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "http-server": "^14.1.0",
+    "install": "^0.13.0",
+    "npm": "^8.6.0",
+    "vitest": "^0.15.1"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "jsdom": "^20.0.0"
+  }
+}

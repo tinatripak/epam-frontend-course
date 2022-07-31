@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="nicknameInput">
+        <input type="text" id="nickname" value="" placeholder="Enter your nickname">
+    </div>
+    <div id="smallButtons">
+        <button type="button" id="start" onclick="validate()">Start</button>
+        <button type="button" id="bestResult" onclick="chooseBestResult()">Best result</button>
+        <button type="button" id="bestResultForAllTime" onclick="chooseBestResultForAllTime()">Best result for all time</button>
+        <button type="button" id="clearBestResult" onclick="clearBestResult()">Clear best result</button>
+        <button type="button" id="clearBestResultForAllTime" onclick="clearBestResultForAllTime()">Clear best result for all time</button>
+    </div>
+    <div id="clickMeButton">
+        <button type="button" onclick="counterClicks()">Click me!</button>
+    </div>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,600%7CSource+Sans+Pro:400,600,700%7CFresca"
+          rel="stylesheet"/>
+    <title>Pre & Post Processing CSS</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/style1.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Ukraine</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Turkey</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Germany</a></li>
+                <li><a href="#">Czech Republic</a></li>
+                <li><a href="#">Poland</a></li>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">USA</a></li>
+            </ul>
+        </nav>
+        <div class="image-block">
+            <img src="img/0.jpg" alt="Photo">
+            <h1 lang="zxx">Lorem ipsum dolor sit amet, consectetur adipisicing elit, harum hic nostrum quo?</h1>
+            <button type="button">Learn more</button>
+        </div> 
+        
+    </header>
+    <main>
+        <h1>Look at our hot tours!</h1>
+        <div class="flex-item">
+            <img src="img/3.jpg" alt="Native picture 1">
+            <div class = "description-container" lang="zxx">
+                <h2>
+                    Lorem ipsum dolor sit amet, consectetur
+                </h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                    Amet blanditiis error neque, reprehenderit tempore voluptatibus?Deleniti dolorem doloremque<br>
+                    exercitationem ipsam iste neque possimus provident repellat voluptas? Harum nobis soluta velit. Lorem<br>
+                    ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis error neque, reprehenderit tempore<br>
+                    voluptatibus?<br>
+                    Deleniti dolorem doloremque exercitationem ipsam iste neque possimus provident repellat voluptas? Harum<br> 
+                    nobis soluta velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet blanditiis error neque,<br> 
+                    reprehenderit tempore voluptatibus? Deleniti dolorem doloremque exercitationem ipsam iste neque<br> 
+                    possimus provident repellat voluptas? Harum nobis soluta velit.
+                </p>
+            </div>
+            
+        </div>
+        <div class="flex-item" lang="zxx">
+            <img src="img/3.jpg" alt="Native picture 2">
+            <div class = "description-container">
+                <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </h2>
+                <p class="description">
+                    Deleniti dolorem doloremque exercitationem ipsam iste neque possimus provident repellat voluptas? Lorem<br>  
+                    ipsum dolor sit amet, consectetur adipiscing elit. Amet blanditiis error neque, reprehenderit tempore<br>
+                    voluptatibus? Deleniti dolorem doloremque exercitationem ipsam iste neque possimus provident repellat<br>
+                    voluptas? Harum nobis soluta velit.<br> 
+                </p>
+            </div>
+            
+        </div>
+        <div class="flex-item" lang="zxx">
+            <img src="img/3.jpg" alt="Native picture 3">
+            <div class = "description-container">
+                <h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </h2>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet blanditiis error neque, reprehenderit tempore<br>  
+                    voluptatibus? Deleniti dolorem doloremque exercitationem ipsam iste neque possimus provident repellat<br>  
+                    voluptas? Harum nobis soluta velit.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet blanditiis error neque, 
+                    reprehenderit tempore<br>voluptatibus?<br>
+                    Deleniti dolorem doloremque exercitationem ipsam iste neque possimus provident repellat voluptas? Harum<br>  
+                    nobis soluta velit.
+                </p>
+            </div>
+        </div>
+        <div class = "reviews">
+            <h3>
+                Your reviews
+            </h3>
+            <div class="row" lang="zxx">
+                <div id="column1">
+                    <img src="img/woman.jpg" alt="First woman">
+                    <p>
+                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>~ Lora
+                    </p>
+                </div>
+                         
+                <div id="column2">
+                    <img src="img/man.jpg" alt="Man">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto culpa debitis, 
+                        earum et facilis inventore laborum magni molestiae nemo odit<br>~ Kim
+                    </p>
+                </div>
+                             
+                <div id="column3">
+                    <img src="img/woman2.jpg" alt="Second woman">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Aliquid architecto culpa debitis, 
+                        earum et facilis inventore?<br>~ Samanta
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "find-tours">
+            <h3>
+                Find your own tour
+            </h3>
+            <div id="form">
+                <div id="country">
+                    <input type="text" name="country" placeholder="Country">
+                </div>
+                <div id="date">
+                    <input type="text" id="where" name="where" placeholder="Where">
+                    <input type="text" id="back" name="back" placeholder="Back">
+                </div>
+                <div id="count-passengers">
+                    <select id="passengers" name="passengers">
+                        <option value="count">Passengers</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div id ="first-block">
+            <h5>
+                Follow us
+            </h5>
+            <div class="social-medias">
+                <img src="img/fb_icon.png" alt="FaceBook">
+                <img src="img/sk_icon.png" alt="Skype">
+                <img src="img/inst_icon.png" alt="Instagram">
+                <img src="img/tw_icon.png" alt="Twitter">
+            </div>
+            <p lang="zxx">
+                &copy; 2022 by Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Assumenda descrunt dignissimos dolor<br>ex fugit nostrum quaerat repellendus, voluptatem!
+                Adipisci commodi dicta doloribus eos hic molestiae optio<br>placeat quis reprehenderit sed.
+            </p>
+        </div>
+        <div id="second-block">
+            <h5>Where to go</h5>
+            <ul>
+                <li>Tour selection</li>
+                <li>Hot tours</li>
+                <li>Hotels, hotels</li>
+                <li>Countries, resorts</li>
+                <li>Bus tours</li>
+                <li>Where could I buy</li>
+                <li>Tour operators</li>
+                <li>Stock</li>
+                <li>Flights</li>
+            </ul>
+        </div>
+        <div id="third-block">
+            <h5>Info</h5>
+            <ul>
+                <li>Contacts</li>
+                <li>Terms</li>
+                <li>About us</li>
+                <li>Careers</li>
+                <li>Our tours</li>
+                <li>Franchising</li>
+            </ul>
+        </div>
+        <div id="fourth-block">
+            <h5>Send us feedback</h5>
+            <input type="text" id="email" name="email" placeholder="Press your email">
+            <button type="submit" value="Send">Send</button>
+            <h5>Payment Methods</h5>
+            <div class="social-medias">
+                <img src="img/visa.png" alt="Visa">
+                <img src="img/masterCard.png" alt="Master Card">
+                <img src="img/Privat24.png" alt="Privat24">
+                <img src="img/GPay.png" alt="Google Pay">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

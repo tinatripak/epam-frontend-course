@@ -1,0 +1,14 @@
+{
+  "name": "async-testing",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vitest --run --reporter verbose --globals",
+    "test:watch": "vitest --reporter verbose --globals"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.15.1"
+  }
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Nunito:wght@300&display=swap');
+
+body{
+    background-color: #cecece;
+}
+
+input{
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 250%;
+    background-color: #e2e0e0;
+    box-shadow: 0 0 10px rgba(165, 160, 160, 0.5);
+    border-radius: 15px;
+    font-family: 'Gotu', sans-serif,  'Cormorant Garamond', serif;
+    border: none;
+    color: #f7fbef;
+}
+.remove{
+    background-color: #a70202 !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+button{
+    cursor: pointer;
+    font-size: 175%;
+    border:none;
+    border-radius: 25px;
+    background-color: #e8a63d;
+    font-family: 'Gotu', sans-serif,  'Cormorant Garamond', serif;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 0 10px rgba(165, 160, 160, 0.5);
+    color: #f7fbef;
+    
+}
+
+#root{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#root #search-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5vh;
+    
+}
+
+.load-more{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+    background-color: #1c4d85;
+}
+
+/* #characters-wrap{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width:75%; 
+    overflow:hidden; 
+    flex:block;
+    justify-content: center;
+    align-items: center;
+}
+#characters-wrap img{
+    padding-right:12px;
+    padding-left: 12px;
+    //border-radius: 15px; 
+    float:left; 
+    display:inline;
+    max-inline-size: 200px;
+    cursor: pointer;
+}
+
+#characters-wrap li {
+    display: none;
+}
+ul{
+    background-color: rgb(243, 243, 192);
+    max-inline-size: 200px;
+} */
+
+#characters-wrap {
+    margin: 0 auto 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1440px;
+    margin-top:30px
+}
+
+#characters-wrap img{
+    width: 100%;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    
+}
+
+.card{
+    background-color: #b5b4b4;
+    box-shadow: 0 0 10px rgba(165, 160, 160, 0.5);
+    border-radius: 15px;
+    display:flex; 
+    flex-direction:column;
+    direction: rtl;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Gotu', sans-serif,  'Cormorant Garamond', serif;
+    color: #f7fbef;
+    flex:1
+}
+
+.card #name{
+    font-size: 150%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    flex:1
+}
+
+.card #status{
+    font-weight: 700;
+    font-size: 110%;
+    margin-top: 3px;
+}
+
+  
+/* img:before {
+    content: "X";
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform:translate(50%,-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4da6ff;
+    mix-blend-mode:darken;
+  } */
+
